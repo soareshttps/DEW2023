@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>TAG MAP</h1>
+    </header>
+    <main>
+    <section>
+        <p>Permite mapear uma imagem tornando áreas da imagem clicáveis</p>
+        <hr>
+        <figure>
+            <img src="../imagens/rs.jpg" alt="Imagem das redes sociais" usemap="#rs">
+            <figcaption>Passe o mouse sobre os ícones da imagem para ir para as suas páginas</figcaption>
+        </figure>
+        <map name="rs">
+            <area shape="rect" coords="2,126,164,278" href="face.html" alt="" target="alvo" 
+            title="Facebook">
+            <area shape="circle" coords="992,197,60" href="whats.html" alt="" target="alvo"
+            title="Whatsapp">
+            <area shape="poly" coords="230,153,309,199,231,248" href="yout.html" alt="" target="alvo" 
+            title="Youtube">
+        </map>
+    </section>
+</main>
+    <iframe src="" frameborder="0" name="alvo" width="1000" height="500"></iframe>
+
+</body>
+</html>
