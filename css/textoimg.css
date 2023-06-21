@@ -1,0 +1,15 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+img{
+    position: absolute;
+    left: 1250px;
+    top: 50px;
+    width: 300px;
+  border: 3px solid #ad212d;
+}
+h1,p{
+width: 1220px;
+}
